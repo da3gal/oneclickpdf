@@ -12,6 +12,7 @@ OneClickPDF is a lightweight Windows utility designed to provide a quick and sea
 * **User-Friendly Installer:** Comes with an installer for easy installation and uninstallation.
 * **No External Dependencies (Post-Installation):** Once installed, the application runs without requiring users to install Python or other libraries.
 * **User Feedback:** Provides simple success or error messages via dialog boxes.
+* **Multiple Images into Individual PDFs:** Allow conversion of multiple selected images into individual PDFs.
 
 ## Technology Stack
 
@@ -60,7 +61,6 @@ The application's core is a Python script, which is packaged into an executable.
 ## Possible Future Improvements
 
 * Allow conversion of multiple selected images into a single PDF.
-* Allow conversion of multiple selected images into individual PDFs.
 * Provide an options dialog (e.g., to select output directory, PDF quality/compression).
 * Support for more image formats.
 * Option to password-protect the generated PDF.
