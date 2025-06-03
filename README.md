@@ -10,10 +10,6 @@ OneClickPDF is a lightweight Windows utility designed to provide a quick and sea
 
 
 
-This project demonstrates proficiency in Python scripting for file manipulation and Windows system integration.
-
-
-
 ## Features
 
 
@@ -38,19 +34,19 @@ This project demonstrates proficiency in Python scripting for file manipulation 
 
 * **Core Logic:**
 
-    * **Python 3.x:** For the image processing and PDF conversion script.
+    * **Python 3.13.2:** For the image processing and PDF conversion script.
 
-    * **Pillow (PIL Fork):** Python Imaging Library used for opening and identifying image files.
+    * **Pillow:** Python Imaging Library used for opening and identifying image files.
 
     * **img2pdf:** Python library used for efficient conversion of images to PDF without re-encoding.
 
-    * **Tkinter:** Python's standard GUI (Graphical User Interface) package, used here for displaying simple message boxes.
+    * **Tkinter:** Python standard GUI (Graphical User Interface) package, used here for displaying simple message boxes.
 
 * **Packaging & Deployment:**
 
-    * **PyInstaller:** Used to bundle the Python script and its dependencies into a single standalone executable (`oneclickpdf.exe`).
+    * **PyInstaller:** Used to bundle the Python script and its dependencies into a single standalone executable.
 
-    * **Inno Setup:** Used to create a user-friendly Windows installer (`OneClickPDF_Setup.exe`).
+    * **Inno Setup:** Used to create a user-friendly Windows installer.
 
 * **Operating System:**
 
@@ -78,7 +74,7 @@ The application's core is a Python script, which is packaged into an executable.
 
     * Basic error handling is implemented using `try-except` blocks, and feedback is provided to the user via `tkinter.messagebox`.
 
-    * This script is compiled into `oneclickpdf.exe` using PyInstaller.
+    * This script is compiled using PyInstaller.
 
 
 
