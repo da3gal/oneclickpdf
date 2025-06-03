@@ -41,8 +41,6 @@ The application's core is a Python script, which is packaged into an executable.
 2.  **Windows Context Menu Integration:**
     * The installer modifies the Windows Registry to add the "Convert to PDF with OneClickPDF" option.
     * Registry keys are created under `HKEY_CLASSES_ROOT\SystemFileAssociations\.ext\shell\ConvertToPDF` for each supported image extension (`.jpg`, `.png`, etc.).
-    * The `command` subkey for each entry is set to execute `oneclickpdf.exe` with `"%1"` as an argument, where `"%1"` is replaced by Windows with the full path of the right-clicked file.
-    * An icon can also be associated with the context menu item.
 
 ## Installation
 
