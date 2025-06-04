@@ -17,7 +17,7 @@ OneClickPDF is a lightweight Windows utility designed to provide a quick and sea
 ## Technology Stack
 
 * **Core Logic:**
-    * **Python 3.13.2:** For the image processing and PDF conversion script.
+    * **Python:** For the image processing and PDF conversion script.
     * **Pillow:** Python Imaging Library used for opening and identifying image files.
     * **img2pdf:** Python library used for efficient conversion of images to PDF without re-encoding.
     * **Tkinter:** Python standard GUI (Graphical User Interface) package, used here for displaying simple message boxes.
